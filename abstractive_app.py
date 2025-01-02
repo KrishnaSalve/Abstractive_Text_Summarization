@@ -56,4 +56,3 @@ elif choice == "Summarize Document":
                 st.markdown("**Summarized Text**")
                 pdf_result = summary_text(result)
                 st.success(pdf_result)
-        
