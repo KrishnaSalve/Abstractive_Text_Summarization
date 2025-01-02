@@ -137,3 +137,4 @@ Werkzeug==3.0.3
 wheel==0.44.0
 yarg==0.1.9
 zipp==3.17.0
+txtai==8.1.0
