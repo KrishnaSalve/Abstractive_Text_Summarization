@@ -6,7 +6,7 @@ st.set_page_config(layout = "wide")
 
 @st.cache_resource
 def summary_text(text):
-     summary = Summary()
+     summary = Summary("sshleifer/distilbart-cnn-12-6")
      text = (text)
      result = summary(text)
 
